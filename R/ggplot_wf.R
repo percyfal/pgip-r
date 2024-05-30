@@ -2,6 +2,9 @@
 ##'
 ##' @param graph tidygraph::tbl_graph object
 ##'
+##' @export
+##' @rdname ggplot_wf
+##'
 ##' @importFrom magrittr %>%
 ##'
 ggplot_wf <- function(graph, fill, size, width, edge_color,

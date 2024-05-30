@@ -4,6 +4,11 @@
 ##' @param n Population size
 ##' @param generations Number of generations to simulate
 ##'
+##' @export
+##' @rdname wright_fisher
+##'
+##' @return A vector of allele frequencies
+##'
 wright_fisher <- function(p0, n, generations) {
   x <- vector(mode = "numeric", length = generations)
   x[1] <- p0

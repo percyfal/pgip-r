@@ -6,9 +6,14 @@
 ##'
 ##' @param popsize Population size
 ##' @param generations Number of generations
-##' @s selection coefficient for A allele
+##' @param s selection coefficient for A allele
 ##' @param p0 Starting frequency
 ##' @param start_gen Starting generation of A mutation
+##'
+##' @export
+##' @rdname wf_model_igraph
+##'
+##' @return An igraph object representing the Wright-Fisher model
 ##'
 wf_model_igraph <- function(popsize = 10, generations = 10, s = 0,
                             p0 = 0.0, start_gen = 0, ...) {

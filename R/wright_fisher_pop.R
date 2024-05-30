@@ -9,6 +9,9 @@
 ##' @param major major allele symbol
 ##' @param minor minor (mutant) allele symbol
 ##'
+##' @export
+##' @rdname wright_fisher_pop
+##'
 ##' @importFrom tidygraph tbl_graph
 ##'
 ##' @returns tbl_graph instance
